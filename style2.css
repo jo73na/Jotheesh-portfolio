@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 * {
+     margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -223,6 +225,7 @@ footer a {
     }
   }
 }
+
 
 .links {
 	display: flex;
