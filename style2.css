@@ -223,3 +223,41 @@ footer a {
     }
   }
 }
+
+.links {
+	display: flex;
+	justify-content: center;
+	margin: 1.5em 0;
+}
+
+a {
+	text-decoration: none;
+	color: #565656;
+	transition: all 0.3s;
+	font-size: 2em;
+	margin-right: 1.2em;
+}
+
+a:last-child {
+	margin: 0;
+}
+
+.insta:hover {
+	color: rgb(254, 254, 254);
+	transform: scale(2, 2);
+}
+
+.git:hover {
+	color: rgb(254, 254, 254);
+	transform: scale(2, 2);
+}
+
+.linkedin:hover {
+	color: rgb(254, 254, 254);
+	transform: scale(2, 2);
+}
+
+.facebook:hover {
+	color: rgb(254, 254, 254);
+	transform: scale(2, 2);
+}
